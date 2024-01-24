@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: pink;
+}
+
+/* ojos*/
+
+.ojo1{
+    position: absolute;
+    padding: 80px;
+    top: 34%;
+    left: 35.1%;
+    border-radius: 100px 100px 100px 100px;
+    padding-left: 20px;
+    background: rgb(0, 0, 0);
+    padding-top: 200px;
+}
+
+.ojo2 {
+    position: absolute;
+    padding: 80px;
+    top: 34%;
+    left: 65.1%;
+    border-radius: 100px 100px 100px 100px;
+    padding-left: 20px;
+    background: rgb(0, 0, 0);
+    padding-top: 200px;
+}
+ 
+
+/* cachetes*/
+.cachete1{
+    position: absolute;
+    padding: 62px;
+    border-radius: 50%;
+    padding-bottom:0;
+    top: 74%;
+    left: 75.1%;
+    background: rgb(255, 107, 132);
+}
+
+.cachete2 {
+    position: absolute;
+    padding: 62px;
+    border-radius: 50%;
+    padding-bottom: 0;
+    top: 74%;
+    left: 24.1%;
+    background: rgb(255, 107, 132);
+}
+
+/* pupilas*/
+
+.pupilablanca{
+    position: absolute;
+    padding: 70px;
+    background: #ffff;
+    border-radius: 100px 100px 100px 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    top: 35%;
+    left: 66.2%;
+}
+
+
+.pupilablanca2 {
+    position: absolute;
+    padding: 70px;
+    background: #ffff;
+    border-radius: 100px 100px 100px 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    top: 35%;
+    left: 36.2%;
+}
+
+/* sonrisa*/
+
+.sonrisa{
+    position: absolute;
+    padding: 70px;
+    border-radius: 50%;
+    border: 10px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    top: 74%;
+    left: 50%;
+}
