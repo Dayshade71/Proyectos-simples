@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(43, 43, 43);
+}
+
+/* linternas*/
+
+.container{
+    position: absolute;
+    background: rgb(94, 94, 94);
+    top: 10%;
+    left: 50%;
+    border-radius: 100px 100px 0px 0px;
+    padding: 40px;
+}
+.container2{
+    position: absolute;
+    background: rgb(94, 94, 94);
+    left: 52%;
+    padding: 50px 2px   ;
+    top:0;
+}
+
+.container3 {
+    position: absolute;
+    background: rgb(94, 94, 94);
+    top: 10%;
+    left: 40%;
+    border-radius: 100px 100px 0px 0px;
+    padding: 40px;
+}
+
+.container4 {
+    position: absolute;
+    background: rgb(94, 94, 94);
+    left: 42%;
+    padding: 50px 2px;
+    top: 0;
+}
+
+
+.container5 {
+    position: absolute;
+    background: rgb(94, 94, 94);
+    top: 10%;
+    left: 30%;
+    border-radius: 100px 100px 0px 0px;
+    padding: 40px;
+}
+
+.container6 {
+    position: absolute;
+    background: rgb(94, 94, 94);
+    left: 32%;
+    padding: 50px 2px;
+    top: 0;
+}
+
+
+.container7 {
+    position: absolute;
+    background: rgb(94, 94, 94);
+    top: 10%;
+    left: 20%;
+    border-radius: 100px 100px 0px 0px;
+    padding: 40px;
+}
+
+.container8 {
+    position: absolute;
+    background: rgb(94, 94, 94);
+    left: 22%;
+    padding: 50px 2px;
+    top: 0;
+}
+
+
+.container9 {
+    position: absolute;
+    background: rgb(94, 94, 94);
+    top: 10%;
+    left: 10%;
+    border-radius: 100px 100px 0px 0px;
+    padding: 40px;
+}
+
+.container10 {
+    position: absolute;
+    background: rgb(94, 94, 94);
+    left: 12%;
+    padding: 50px 2px;
+    top: 0;
+}
+
+
+.container11 {
+    position: absolute;
+    background: rgb(94, 94, 94);
+    top: 10%;
+    left: 60%;
+    border-radius: 100px 100px 0px 0px;
+    padding: 40px;
+    
+}
+
+.container12 {
+    position: absolute;
+    background: rgb(94, 94, 94);
+    left: 62%;
+    padding: 50px 2px;
+    top: 0;
+}
+
+
+.container13 {
+    position: absolute;
+    background: rgb(94, 94, 94);
+    top: 10%;
+    left: 70%;
+    border-radius: 100px 100px 0px 0px;
+    padding: 40px;
+}
+
+.container14 {
+    position: absolute;
+    background: rgb(94, 94, 94);
+    left: 72%;
+    padding: 50px 2px;
+    top: 0;
+}
+
+.container15 {
+    position: absolute;
+    background: rgb(94, 94, 94);
+    top: 10%;
+    left: 80%;
+    border-radius: 100px 100px 0px 0px;
+    padding: 40px;
+}
+
+.container16 {
+    position: absolute;
+    background: rgb(94, 94, 94);
+    left: 82%;
+    padding: 50px 2px;
+    top: 0;
+}
+
+
+/* Bolas de las linternas*/
+.contenedorbola{
+    position: absolute;
+    padding: 27px;
+    background: rgb(3, 226, 255);
+    border-radius:0 0 100px 100px;
+    top: 18%;
+    left: 10.6%;
+    box-shadow: 0 0 20px rgb(3, 226, 255), 0 0 40px rgb(3, 226, 255);
+    
+
+}
+
+.contenedorbola2 {
+    position: absolute;
+    padding: 27px;
+    background: white;
+    border-radius: 0 0 100px 100px;
+    top: 18%;
+    left: 20.6%;
+    box-shadow: 0 0 20px white, 0 0 40px white;
+}
+
+.contenedorbola3 {
+    position: absolute;
+    padding: 27px;
+    background: rgb(3, 226, 255);
+    border-radius: 0 0 100px 100px;
+    top: 18%;
+    left: 30.6%;
+    box-shadow: 0 0 20px rgb(3, 226, 255), 0 0 40px rgb(3, 226, 255);
+}
+
+.contenedorbola4 {
+    position: absolute;
+    padding: 27px;
+    background: white;
+    border-radius: 0 0 100px 100px;
+    top: 18%;
+    left: 40.6%;
+    box-shadow: 0 0 20px white, 0 0 40px white;
+}
+
+.contenedorbola5 {
+    position: absolute;
+    padding: 27px;
+    background: rgb(3, 226, 255);
+    border-radius: 0 0 100px 100px;
+    top: 18%;
+    left: 50.6%;
+    box-shadow: 0 0 20px rgb(3, 226, 255), 0 0 40px rgb(3, 226, 255);
+}
+
+.contenedorbola6 {
+    position: absolute;
+    padding: 27px;
+    background: white;
+    border-radius: 0 0 100px 100px;
+    top: 18%;
+    left: 60.6%;
+    box-shadow: 0 0 20px white, 0 0 40px white;
+}
+
+.contenedorbola7 {
+    position: absolute;
+    padding: 27px;
+    background:rgb(3, 226, 255);
+    border-radius: 0 0 100px 100px;
+    top: 18%;
+    left: 70.6%;
+    box-shadow: 0 0 20px rgb(3, 226, 255), 0 0 40px rgb(3, 226, 255);
+}
+
+.contenedorbola8 {
+    position: absolute;
+    padding: 27px;
+    background: white;
+    border-radius: 0 0 100px 100px;
+    top: 18%;
+    left: 80.6%;
+    box-shadow: 0 0 20px white, 0 0 40px white;
+}
+
+/* Animaciones */
+
+.contenedorbola:hover {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255);
+}
+
+.contenedorbola2:hover {
+    background: rgb(3, 226, 255);
+    box-shadow: 0 0 20px rgb(3, 226, 255), 0 0 40px rgb(3, 226, 255);
+}
+
+.contenedorbola3:hover {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255);
+}
+
+.contenedorbola4:hover {
+    background: rgb(3, 226, 255);
+    box-shadow: 0 0 20px rgb(3, 226, 255), 0 0 40px rgb(3, 226, 255);
+}
+
+.contenedorbola5:hover {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255);
+}
+
+.contenedorbola6:hover {
+    background: rgb(3, 226, 255);
+    box-shadow: 0 0 20px rgb(3, 226, 255), 0 0 40px rgb(3, 226, 255);
+}
+
+.contenedorbola7:hover {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255);
+}
+
+.contenedorbola8:hover {
+    background: rgb(3, 226, 255);
+    box-shadow: 0 0 20px rgb(3, 226, 255), 0 0 40px rgb(3, 226, 255);
+}
+
+
+
+
+
+
+  
+
