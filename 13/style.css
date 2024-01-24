@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(255, 218, 224);
+}
+.cabeza{
+    position: absolute;
+    background: pink;
+    padding: 120px;
+    border-radius: 50%;
+    left: 50%;
+    top: 30%;
+}
+
+.brazo1{
+    position: absolute;
+        background: pink;
+        padding: 55px;
+        border-radius: 50%;
+        padding-left: 40px;
+        left: 48.2%;
+        top: 40%;
+       
+}
+
+.brazo2 {
+    position: absolute;
+    background: pink;
+    padding: 55px;
+    border-radius: 50%;
+    padding-left: 40px;
+    left: 58.9%;
+    top: 40%;
+
+}
+
+.zapato1{
+    position: absolute;
+        background: rgb(255, 0, 43);
+        padding: 50px;
+        border-radius: 100px 50px ;
+        left: 50%;
+        top: 52%;
+        z-index: -1;
+}
+
+.zapato2 {
+    position: absolute;
+    background: rgb(255, 0, 43);
+    padding: 50px;
+    border-radius: 50px 100px;
+    left: 57%;
+    top: 52%;
+    z-index: -1;
+}
+
+.cachete1{
+
+    position: absolute;
+    background: rgb(255, 135, 155);
+    padding: 20px;
+    border-radius: 50px 140px;
+    transform: rotate(-50deg);
+    top: 44%;
+    left: 52.2%;
+
+}
+
+.cachete2 {
+
+    position: absolute;
+    background: rgb(255, 135, 155);
+    padding: 20px;
+    border-radius: 50px 140px;
+    transform: rotate(-50deg);
+    top: 44%;
+    left: 58.6%;
+
+}
+
+
+.ojo1{
+    position: absolute;
+    background: #000;
+    padding: 40px;
+    top: 36%;
+    left:53.5%;
+    border-radius: 50%;
+    padding-left: 5px;
+    z-index: 1;
+}
+
+.ojo2 {
+    position: absolute;
+    background: #000;
+    padding: 40px;
+    top: 36%;
+    left: 57%;
+    border-radius: 50%;
+    padding-left: 5px;
+    z-index: 1;
+}
+
+.pupila1{
+    position: absolute;
+        background: #ffffff;
+        padding: 20px;
+        top: 36%;
+        left: 57.5%;
+        border-radius: 50%;
+        padding-left: 5px;
+        z-index: 1;
+}
+
+.pupila2 {
+    position: absolute;
+    background: #ffffff;
+    padding: 20px;
+    top: 36%;
+    left: 54%;
+    border-radius: 50%;
+    padding-left: 5px;
+    z-index: 2;
+}
