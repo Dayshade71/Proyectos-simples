@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+}
+
+.pacman{
+    position: absolute;
+    padding: 70px;
+    background: yellow;
+    border-radius: 50%;
+    box-shadow: 0 0 10px yellow, 0 0 20px yellow , 0 0 40px yellow;
+    background-color: transparent;
+    left: 10%;
+    top: 45%;
+    
+}
+
+.cuadro1{
+    position: absolute;
+    padding: 30px;
+    background: yellow;
+    left: 12%;
+    top: 60.9%;
+    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+    filter: blur(1em)
+
+
+}
+   
+
+.fantasma1{
+
+    position: absolute;
+        padding: 70px;
+        background: rgb(255, 0, 0);
+        border-radius: 100px 100px 0 0;
+        left: 27%;
+        background-color: transparent;
+        box-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(255, 0, 0), 0 0 40px rgb(255, 0, 0);
+        top: 45%;
+
+}
+
+.cuadro2{
+    position: absolute;
+        padding: 30px;
+        background: rgb(255, 0, 0);
+        left: 29%;
+        top: 60.9%;
+        transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+        filter: blur(1em)
+}
+
+.fantasma2 {
+
+    position: absolute;
+    padding: 70px;
+    background: rgb(1, 132, 255);
+    border-radius: 100px 100px 0 0;
+    left: 46.5%;
+    box-shadow: 0 0 10px rgb(1, 132, 255), 0 0 20px rgb(1, 132, 255), 0 0 40px rgb(1, 132, 255);
+    background-color: transparent;
+    top: 45%;
+
+}
+
+.cuadro3{
+    position: absolute;
+        padding: 30px;
+        background: rgb(0, 162, 255);
+        left: 49%;
+        top: 60.9%;
+        transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+        filter: blur(1em)
+}
+
+
+.fantasma3 {
+
+    position: absolute;
+    padding: 70px;
+    background: rgb(1, 255, 14);
+    border-radius: 100px 100px 0 0;
+    background-color: transparent;
+    left: 68%;
+    box-shadow: 0 0 10px rgb(1, 255, 14),0 0 20px rgb(1, 255, 14), 0 0 40px rgb(1, 255, 14);
+    top: 45%;
+   
+
+}
+
+.cuadro4{
+    position: absolute;
+        padding: 30px;
+        background: rgb(0, 255, 21);
+        left: 70%;
+        top: 60.9%;
+        transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+        filter: blur(1em)
+}
