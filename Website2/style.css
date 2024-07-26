@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+body{
+    background:url(./pexels-leandro-pita-7442171.jpg) ;
+}
+
+.Login{
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    padding: 60px;
+    border: 1px solid rgb(255, 153, 1);
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 6%;
+
+}
+.container{
+    padding: 10px;
+}
+
+.title{
+    color:rgb(255, 153, 1);;
+    left: 87px;
+    position: relative;
+    padding-bottom: 30px;
+
+}
+
+.primero{
+    padding-bottom: 30px;
+    border-radius: 50%;
+    left: 47px;
+    position: relative;
+}
+
+.segundo{
+    padding-bottom: 30px;
+        border-radius: 50%;
+    
+        left: 47px;
+        position: relative;
+}
+
+.tercero{
+    padding-bottom: 30px;
+        border-radius: 50%;
+    
+        left: 47px;
+        position: relative;
+    
+}
+
+p{
+    padding-bottom: 30px;
+        border-radius: 50%;
+    
+        left: 20px;
+        position: relative;
+}

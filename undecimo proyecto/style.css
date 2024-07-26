@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: yellow;
+}
+
+/*cachetes*/
+
+.container{
+    position: absolute;
+    padding: 80px;
+    border-radius: 50%;
+    background-color: #fa0000;
+    left: 30%;
+    top: 40%;
+
+}
+
+.container2 {
+    position: absolute;
+    padding: 80px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    left: 60%;
+    top: 40%;
+
+}
+/*ojos*/
+
+.ojos{
+    position: absolute;
+    padding: 70px;
+    border-radius: 50%;
+    background-color: #000000;
+    left: 36%;
+    top: 20%;
+
+}
+
+.ojos2 {
+    position: absolute;
+    padding: 70px;
+    border-radius: 50%;
+    background-color: #000000;
+    left: 55%;
+    top: 20%;
+
+}
+
+/*pupilas*/
+
+.pupilas{
+    position: absolute;
+        padding: 40px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        left: 55.7%;
+        top: 20.6%;
+
+}
+
+.pupila2 {
+    position: absolute;
+    padding: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    left: 38%;
+    top: 20.6%;
+
+}
+
+/*nariz*/
+.nariz{
+    position: absolute;
+    background: #000000;
+    padding: 17px;
+    left: 48%;
+    top: 35.6%;
+    border-radius: 0 0 100px 100px;
+}
+
+/*sonrisa*/
+.sonrisa{
+    position: absolute;
+    padding: 57px;
+    left: 43.1%;
+    top: 45.6%;
+    border-radius: 50%;
+    border: 1px solid black;
+    border-top: 0;
+        border-right: 0;
+        border-left: 0;
+}
+
+.sonrisa2{
+    position: absolute;
+        padding: 57px;
+        left: 49.1%;
+        top: 45.6%;
+        border-radius: 50%;
+        border: 1px solid black;
+        border-top: 0;
+        border-right: 0;
+        border-left: 0;
+}

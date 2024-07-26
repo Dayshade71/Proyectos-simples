@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #333;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 140px;
+    gap: 20px;
+
+}
+.botones label{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.botones label input{
+    appearance: none;
+
+}
+.botones label span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#555353,#363535, #303030);
+    border: 2px solid #222;
+    border-radius: 6px;
+    box-shadow: inset 0 5px 1px rgba(0,0,0,0.35), 0 5px 5px rgba(0, 0, 0, 0.5), 0 15px 25px rgba(0, 0, 0, 0.35);
+}
+
+.botones label input:checked ~ span{
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.35), inset 0 5px 5px rgba(0, 0, 0, 0.5), inset 0 15px 25px rgba(0, 0, 0, 0.35);
+
+}
+.botones label span::before{
+    content: "";
+    position: absolute;
+    inset: 5px 3px;
+    border-top: 1px solid #ccc;
+    filter:blur(2px);
+
+
+}
+
+.botones label i{
+    position: relative;
+    z-index: 10;
+    font-size: 1.5rem;
+    color: #111;
+
+}
+
+.botones label input:checked~ i{
+    color: #fff;
+    text-shadow:  0 0 5px rgb(102, 228, 245), 0 0 8px rgb(102, 228, 245);
+}

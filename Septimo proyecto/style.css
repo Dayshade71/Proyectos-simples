@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(0, 0, 0);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transform-style: preserve-3d;
+
+}
+/* letras*/
+
+/* JUPITER*/
+
+.contenedor p{
+    position: absolute;
+    color: rgb(14, 179, 255);
+    top:70%;
+    left: 49%;
+    font-size: 1.4em;
+    
+  
+    
+}
+/* TIERRA*/
+.contenedor2 p {
+    position: absolute;
+    color: rgb(13, 255, 73);
+    top: 69%;
+    left: 19%;
+    font-size: 1.4em;
+   
+  
+   
+}
+/* MARTE*/
+.contenedor3 p {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 69%;
+    left: 78%;
+    font-size: 1.4em;
+    
+    
+    
+}
+
+.contenedor4 p{
+    position: absolute;
+    color: #4069ff;
+    top: 10%;
+    left: 45%;
+    font-size: 2.3em;
+    
+}
+
+
+
+
+
+
+
+/* Planetas */
+.earth{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    background: url(00_earthmap1k.jpg);
+    border-radius: 50%;
+    background-size:cover ;
+    background-repeat: repeat-x;
+    box-shadow: inset 0 0 20px black, 0 0 50px #4069ff ;
+    animation: animateEarht 15s linear infinite;
+}
+
+
+
+.marte{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    background: url(./04_earthcloudmap.jpg);
+    border-radius: 50%;
+    background-size:cover ;
+    background-repeat: repeat-x;
+    box-shadow: inset 0 0 20px black, 0 0 50px #40c3ff ;
+    animation: animateMarte 10s linear infinite;
+}
+
+
+.planeta{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    background: url(./05_earthcloudmaptrans.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: repeat-x;
+    box-shadow: inset 0 0 20px black, 0 0 50px #505461;
+    animation: animateplaneta 25s linear infinite
+
+}
+
+
+
+/* Animaciones */
+@keyframes animateplaneta{
+    0%{
+        background-position:0 0 ;
+    }
+    100%{
+        background-position: 1000px 0;
+    }
+}
+
+@keyframes animateEarht {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+@keyframes animateMarte {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+
+
